@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Ticket Booking</title>
+</head>
+<body>
+     <style>
+        body {
+            background-image: url('https://tse2.mm.bing.net/th?id=OIP.ddymNxrShhFvgOTDnOHX-AHaEo&pid=Api&P=0&h=180'); 
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            color: white; 
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <h1>🎟️ Book Your Movie Ticket</h1>
+
+    <form>
+          <h3>Select Location</h3>
+         <label for="Location">Select Location:</label>
+        <select id="Location" name="Location">
+            <option value="Select from below">Select from below</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Pune</option>
+            <option value="Hydrabad">Hydrabad</option>
+            <option value="Chandhigrah">Chandhigrah</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+        </select>
+        <br><br> 
+
+        <h2>Movie Selection</h2>
+        <label for="movie">Choose a movie:</label><br>
+        <select id="movie" name="movie">
+            <option value="Select from below">Select from below</option>
+            <option value="Final Destination-Bloodline">Final Destination-Bloodline</option>
+            <option value="Thug Life">Thug Life</option>
+            <option value="Jaran">Jaran</option>
+            <option value="Lilo & Stich">Lilo & Stich</option>
+        </select>
+        <br><br>
+            
+        <label for="language">Select language:</label><br>
+        <select id="language" name="language">
+            <option value="Select from below">Select from below</option>
+             <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Tamil">Tamil</option>
+            <option value="Telgu">Telgu</option>
+            <option value="Punjabi">Punjabi</option>
+        </select>
+        <br><br>
+       
+
+        <label for="date">Select date:</label><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Select time:</label><br>
+        <select id="time" name="time">
+            <option value="Select from below">Select from below</option>
+            <option value="10am">10:00 AM</option>
+            <option value="1pm">1:00 PM</option>
+            <option value="4pm">4:00 PM</option>
+            <option value="7pm">7:00 PM</option>
+        </select>
+        <br><br>
+
+        <h2>Customer Details</h2>
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="seats">Number of Tickets:</label><br>
+        <input type="number" id="seats" name="seats" min="1" max="10"><br><br>
+
+        <input type="submit" value="Book Now">
+    </form>
+
+    <hr>
+         
+    <a href="thank.html"><button>Go to next page for confirmation reciept</button></a> 
+        <p>&copy; 2025 Movie Booking Inc.</p>
+    
+</body>
+</html>
